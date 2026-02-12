@@ -8,8 +8,8 @@ import java.util.logging.Logger;
  *
  * @author cesarvefe
  */
-public class MoldeadorPizzaDelgada {
-
+public class MoldeadorPizzaDelgada implements Moldeador {
+    
     public void moldearPizzaPequena() {
         Logger.getLogger(MoldeadorPizzaDelgada.class.getName())
                 .log(Level.INFO, "[O] Moldeando pizza pequena de masa convencional.");

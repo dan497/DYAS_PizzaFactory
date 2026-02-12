@@ -8,8 +8,7 @@ import java.util.logging.Logger;
  *
  * @author cesarvefe
  */
-public class AmasadorPizzaDelgada {
-
+public class AmasadorPizzaDelgada implements Amasador { 
     
     
     public void amasar() {
